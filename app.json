@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "leafAnalyzer",
+    "slug": "leafAnalyzer",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/leafanalyzer.ico",
+    "userInterfaceStyle": "light",
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow $(leafAnalyzer) to access your camera."
+        }
+      ]
+    ],
+    "splash": {
+      "image": "./assets/splash.jpg",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/leafanalyzer.ico",
+        "backgroundColor": "#ffffff"
+      }
+    }
+  }
+}
